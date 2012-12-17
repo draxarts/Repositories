@@ -1,0 +1,758 @@
+/* CSS Document */
+
+#HomeBanner {
+	width: 100%;
+	height: 316px;
+}
+
+.top-margin {
+	margin-top: -76px;
+}
+
+#HomeBannerNav {
+	min-width: 1px;
+	min-height: 1px;
+	float: left;
+}
+
+#HomeBannerNav ul {
+	width: 86px;
+	height: 316px;
+	float: left;
+}
+
+#HomeBannerNav ul li {
+	height: 72px;
+	width: 100%;
+	border: solid 1px #aab2b8;
+}
+
+#HomeBannerNav ul li a {
+	width: 73px;
+	height: 45px;
+	color: #f3eee4;
+	font-size: 11px;
+	line-height: 14px;
+	padding: 26px 10px 0 3px;
+}
+
+#HomeBannerNav ul li + li {
+	margin-top: 6px;
+}
+
+#HomeBannerNav ul li a:hover {
+	text-decoration: none;
+}
+
+#HomeBannerNav > div {
+	width: 24px;
+	height: 315px;
+	float: left;
+}
+
+#HomeBannerNav > div > span {
+	height: 74px;
+	width: 18px;
+	margin: auto;
+	visibility: hidden;
+	background: #aab2b8 url(../images/bullets/SingleBlackArrow.png) no-repeat center center;
+}
+
+#HomeBannerNav > div > span + span {
+	margin-top: 6px;
+}
+
+.ActiveBannerSpan {
+	visibility: visible !important;
+}
+
+#ImageProductionBanner a {
+	background: url(../images/backgrounds/ImageProductionBckgrd.png);
+	background: -moz-linear-gradient(top, #664200, #2f1e00, #050300);
+	background: -webkit-linear-gradient(top, #664200, #2f1e00, #050300);
+	background: -ms-linear-gradient(top, #664200, #2f1e00, #050300);
+	background: -o-linear-gradient(top, #664200, #2f1e00, #050300);
+	background: linear-gradient(top, #664200, #2f1e00, #050300);
+}
+
+#FiveDGraphicsBanner a {
+	background: url(../images/backgrounds/5DGraphicsBckgrd.png);
+	background: -moz-linear-gradient(top, #003e32, #001f19, #000);
+	background: -webkit-linear-gradient(top, #003e32, #001f19, #000);
+	background: -ms-linear-gradient(top, #003e32, #001f19, #000);
+	background: -o-linear-gradient(top, #003e32, #001f19, #000);
+	background: linear-gradient(top, #003e32, #001f19, #000);
+}
+
+#ImageryProductionBanner a {
+	background: url(../images/backgrounds/ImageryBckgrd.png);
+	background: -moz-linear-gradient(top, #00406f, #002641, #000408);
+	background: -webkit-linear-gradient(top, #00406f, #002641, #000408);
+	background: -ms-linear-gradient(top, #00406f, #002641, #000408);
+	background: -o-linear-gradient(top, #00406f, #002641, #000408);
+	background: linear-gradient(top, #00406f, #002641, #000408);
+}
+
+#PhotobookBanner a {
+	background: url(../images/backgrounds/PhotoBookBckgrd.png);
+	background: -moz-linear-gradient(top, #440035, #25001d, #030002); 
+	background: -webkit-linear-gradient(top, #440035, #25001d, #030002); 
+	background: -ms-linear-gradient(top, #440035, #25001d, #030002); 
+	background: -o-linear-gradient(top, #440035, #25001d, #030002); 
+	background: linear-gradient(top, #440035, #25001d, #030002); 
+}
+
+#BannerImage {
+	height: 316px;
+	width: 850px;
+	overflow: hidden;
+}
+
+#BannerImage li {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+#NewsBar {
+	height: 95px;
+	width: 958px;
+	border: solid 1px #67696d;
+	margin: 22px 0 14px;
+	padding: 4px 0 6px;
+	background: url(../images/backgrounds/NewsBarBackground.jpg) no-repeat;
+}
+
+#NewsBar > div {
+	border: dotted #aaa8a3;
+	border-width: 0 1px 0 0;
+	height: 88px;
+	padding: 4px 10px 3px 12px;
+	float: left;
+	line-height: 13px;
+}
+
+#NewsBar > a {
+	float: left;
+	height: 67px;
+	width: 94px;
+	padding-top: 28px;
+	color: #9d9d9d;
+	text-align: center;
+	font-size: 12px;
+	background: url(../images/bullets/SingleGrayArrow.png) no-repeat right center;
+}
+
+#NewsBar a,
+#RecentProjectsContainer a,
+#ExtraContent a {
+	-moz-transition: color 0.5s ease;
+	-webkit-transition: color 0.8s ease;
+	-ms-transition: color 0.8s ease;
+	-0-transition: color 0.8s ease;
+	transition: color 0.8s ease;
+}
+
+#NewsBar a:hover,
+#RecentProjectsContainer a:hover,
+#ExtraContent a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+#NewsBar > a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+#NewsBar > div > h3 {
+	font-size: 14px;
+	font-family: 'HelveticaCEBold';
+	color: #e6e6e6;
+	font-weight: normal;
+	margin: 0 0 5px 0;
+}
+
+#NewsBar > div > p {
+	margin: 0 0 8px 0;
+}
+
+#NewsBar > div > p,
+#NewsBar > div > a {
+	color: #9d9d9d;
+	font-size: 11px;
+	display: inline-block;
+}
+
+#FirstNewsBox {
+	width: 230px;
+	margin-left: 100px;
+}
+
+#SecondNewsBox {
+	width: 244px;
+}
+
+#ThirdNewsBox {
+	width: 215px;
+}
+
+#RecentProjectsContainer {
+	height: 261px;
+	width: 100%;
+	margin: 0 0 18px 0;
+}
+
+#RecentProjectsContainer h3 {
+	height: 28px;
+	width: 958px;
+	border: solid 1px #756f78;
+	background: #530041;
+	line-height: 28px;
+	text-indent: 8px;
+	color: #fff;
+	margin: 0 0 4px 0;
+	font-size: 16px;
+	font-family: 'HelveticaCEReg';
+	font-weight: normal;
+}
+
+#RecentProjectsContainer > div {
+	height: 227px;
+	width: 100%;
+}
+
+#RecentProjectsContainer > div > div {
+	float: left;
+	width: 306px;
+	height: 220px;
+	background: #1a1a1a;
+	padding: 5px 5px 0;
+	border: solid 1px #74767a;
+}
+
+#RecentProjectsContainer > div > div + div {
+	margin-left: 4px;
+	width: 305px;
+}
+
+#RecentProjectsContainer > div > div > h4 {
+	margin: 4px 0 2px;
+	color: #d2d5de;
+	font-size: 13px;
+	font-size: 13.54px;
+	font-weight: normal;
+	font-family: 'HelveticaCEBold'
+}
+
+#RecentProjectsContainer > div > div > p {
+	font-size: 11px;
+	color: #a1a1a1;
+	margin: 0 0 2px;
+	line-height: 12px;
+}
+
+#RecentProjectsContainer > div > div > a {
+	display: inline-block;
+	font-size: 11px;
+	color: #a1a1a1;
+	font-weight: bold;
+}
+
+#ExtraContent {
+	height: 266px;
+	width: 960px;
+	margin-bottom: 24px;
+}
+
+#ExtraContent > div {
+	float: left;
+	height: 266px;
+	border: solid 1px #b2b2b2;
+}
+
+#ExtraContent > div + div {
+	margin-left: 5px;
+}
+
+#ShortAboutUs {
+	width: 476px;
+}
+
+#ShortAboutUs img {
+	margin: 0 14px;
+	float: left;
+}
+
+#ShortAboutUs > p {
+	color: #959595;
+	margin: 0 10px 11px 0;
+	line-height: 14px;
+}
+
+#ShortAboutUs > a {
+	font-weight: bold;
+	color: #ff8888;
+	margin-left: 152px;
+	display: inline-block;
+}
+
+#ShortAboutUs h3,
+#SocialNetwork h3 {
+	width: 100%;
+	height: 48px;
+	margin: 0 0 17px;
+	font-family: 'HelveticaNarrow';	
+	border: solid #b2b2b2;
+	border-width: 0 0 1px 0;
+	font-size: 18px;
+	color: #eff0f0;
+	font-weight: normal;
+	line-height: 48px;
+	text-indent: 15px;
+}
+
+#ShortAboutUs h3 > a {
+	color: #eff0f0;
+	font-size: 14px;
+	width: 164px;
+	display: inline-block;
+	float: right;
+	font-family: 'HelveticaNarrow';
+	margin-right: 13px;
+	background: url(../images/bullets/SingleWhiteArrow.png) no-repeat right center;
+}
+
+#ShortAboutUs h3 {
+	background: url(../images/backgrounds/ShortAboutUsBckgrd.png);
+	background: -moz-linear-gradient(left, #2a0000, #d80000, #270000);
+	background: -webkit-linear-gradient(left, #2a0000, #d80000, #270000);
+	background: -o-linear-gradient(left, #2a0000, #d80000, #270000);
+	background: -ms-linear-gradient(left, #2a0000, #d80000, #270000);
+	background: linear-gradient(left, #2a0000, #d80000, #270000);
+}
+
+#SocialNetwork h3 {
+	background: url(../images/backgrounds/SocialNetworkHeader.png);
+	background: -moz-linear-gradient(left, #00192a, #007bd5, #001525); 
+	background: -webkit-linear-gradient(left, #00192a, #007bd5, #001525); 
+	background: -o-linear-gradient(left, #00192a, #007bd5, #001525); 
+	background: -ms-linear-gradient(left, #00192a, #007bd5, #001525); 
+	background: linear-gradient(left, #00192a, #007bd5, #001525); 
+}
+
+#SocialNetwork {
+	width: 281px;
+}
+
+#SocialNetwork > ul {
+	float: left;
+	height: 195px;
+	width: 135px;
+}
+
+#SocialNetwork > ul > li {
+	height: 34px;
+	margin-left: 10px;
+}
+
+#SocialNetwork > ul > li + li {
+	margin-top: 46px;
+}
+
+#SocialNetwork > ul > li > a {
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/icons/FbTwitterYoutube.png);
+	background-repeat: no-repeat;
+}
+
+#SocialNetwork > ul + ul {
+	width: 145px;
+	border: dotted #aaa8a3;
+	border-width: 0 0 0 1px;
+}
+
+#SocialNetwork > ul + ul > li {
+	margin-left: 38px;
+}
+
+#SocialNetwork > ul + ul > li > a {
+	background-image: url(../images/icons/LinkedFlickrG+.png);
+	background-repeat: no-repeat;
+}
+
+#Facebook {
+	width: 95px;
+}
+
+#Facebook > a {
+	background-position: 0px 4px;
+}
+
+#Twitter {
+	width: 100px;
+}
+
+#Twitter > a {
+	background-position: 1px -68px;
+}
+
+#YouTube {
+	width: 72px;
+}
+
+#YouTube > a {
+	background-position: 0px -136px;
+}
+
+#Linked {
+	width: 90px;
+}
+
+#Linked > a {
+	background-position: 0px 4px;
+}
+
+#Flickr {
+	width: 61px;
+}
+
+#Flickr > a {
+	background-position: 0px -66px;
+}
+
+#GPlus {
+	width: 38px;
+}
+
+#GPlus > a {
+	background-position: 2px -128px;
+}
+
+#ShopNow {
+	width: 187px;
+}
+
+#ShopNow > a {
+	width: 100%;
+	height: 100%;
+	background: url(../images/imgs/ShopNow.jpg) no-repeat;
+}
+
+
+/******************************* HOME BANNER ANIMATION STYLES ****************************************************/
+
+
+
+.theme-default .nivoSlider {
+	position:relative;
+	background:#fff url(../images/icons/loading.gif) no-repeat 50% 50%;
+    margin-bottom:10px;
+    -webkit-box-shadow: 0px 1px 5px 0px #4a4a4a;
+    -moz-box-shadow: 0px 1px 5px 0px #4a4a4a;
+    -ms-box-shadow: 0px 1px 5px 0px #4a4a4a;
+    box-shadow: 0px 1px 5px 0px #4a4a4a;
+}
+.theme-default .nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+.theme-default .nivoSlider a {
+	border:0;
+	display:block;
+}
+
+.theme-default .nivo-controlNav {
+	text-align: center;
+	padding: 20px 0;
+}
+.theme-default .nivo-controlNav a {
+	display:inline-block;
+	width:22px;
+	height:22px;
+	background: url(../images/icons/bullets.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	margin: 0 2px;
+}
+.theme-default .nivo-controlNav a.active {
+	background-position:0 -22px;
+}
+
+.theme-default .nivo-directionNav a {
+	display:block;
+	width:30px;
+	height:30px;
+	background: url(../images/icons/arrows.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	opacity: 0;
+	-webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -ms-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+.theme-default:hover .nivo-directionNav a { opacity: 1; }
+.theme-default a.nivo-nextNav {
+	background-position:-30px 0;
+	right:15px;
+}
+.theme-default a.nivo-prevNav {
+	left:15px;
+}
+
+.theme-default .nivo-caption {
+    font-family: Helvetica, Arial, sans-serif;
+}
+.theme-default .nivo-caption a {
+    color:#fff;
+    border-bottom:1px dotted #fff;
+}
+.theme-default .nivo-caption a:hover {
+    color:#fff;
+}
+
+.theme-default .nivo-controlNav.nivo-thumbs-enabled {
+	width: 100%;
+}
+.theme-default .nivo-controlNav.nivo-thumbs-enabled a {
+	width: auto;
+	height: auto;
+	background: none;
+	margin-bottom: 5px;
+}
+
+/* The Nivo Slider styles */
+.nivoSlider {
+	position:relative;
+	width:100%;
+	height:auto;
+	overflow: hidden;
+}
+.nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	max-width: none;
+}
+.nivo-main-image {
+	display: block !important;
+	position: relative !important; 
+	width: 100% !important;
+}
+
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:6;
+	display:none;
+}
+/* The slices and boxes in the Slider */
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:5;
+	height:100%;
+	top:0;
+}
+.nivo-box {
+	display:block;
+	position:absolute;
+	z-index:5;
+	overflow:hidden;
+}
+.nivo-box img { display:block; }
+
+/* Caption styles */
+.nivo-caption {
+	position:absolute;
+	left:0px;
+	bottom:0px;
+	background:#000;
+	color:#fff;
+	width:100%;
+	z-index:8;
+	padding: 5px 10px;
+	opacity: 0.8;
+	overflow: hidden;
+	display: none;
+	-moz-opacity: 0.8;
+	filter:alpha(opacity=8);
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+.nivo-caption p {
+	padding:5px;
+	margin:0;
+}
+.nivo-caption a {
+	display:inline !important;
+}
+.nivo-html-caption {
+    display:none;
+}
+/* Direction nav styles (e.g. Next & Prev) */
+.nivo-directionNav a {
+	position:absolute;
+	top:45%;
+	z-index:9;
+	cursor:pointer;
+}
+.nivo-prevNav {
+	left:0px;
+}
+.nivo-nextNav {
+	right:0px;
+}
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav {
+	text-align:center;
+	padding: 15px 0;
+}
+.nivo-controlNav a {
+	cursor:pointer;
+}
+.nivo-controlNav a.active {
+	font-weight:bold;
+}
+
+.slider-wrapper { 
+	width: 850px;
+	height: 316px; 
+	margin: 100px auto;
+}
+
+/*====================*/
+/*=== Other Styles ===*/
+/*====================*/
+.clear {
+	clear:both;
+
+
+ 
+/* The Nivo Slider styles */
+.nivoSlider {
+	position:relative;
+	width:100%;
+	height:auto;
+	overflow: hidden;
+}
+.nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	max-width: none;
+}
+.nivo-main-image {
+	display: block !important;
+	position: relative !important; 
+	width: 100% !important;
+}
+
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:6;
+	display:none;
+}
+/* The slices and boxes in the Slider */
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:5;
+	height:100%;
+	top:0;
+}
+.nivo-box {
+	display:block;
+	position:absolute;
+	z-index:5;
+	overflow:hidden;
+}
+.nivo-box img { display:block; }
+
+/* Caption styles */
+.nivo-caption {
+	position:absolute;
+	left:0px;
+	bottom:0px;
+	background:#000;
+	color:#fff;
+	width:100%;
+	z-index:8;
+	padding: 5px 10px;
+	opacity: 0.8;
+	overflow: hidden;
+	display: none;
+	-moz-opacity: 0.8;
+	filter:alpha(opacity=8);
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+.nivo-caption p {
+	padding:5px;
+	margin:0;
+}
+.nivo-caption a {
+	display:inline !important;
+}
+.nivo-html-caption {
+    display:none;
+}
+/* Direction nav styles (e.g. Next & Prev) */
+.nivo-directionNav a {
+	position:absolute;
+	top:45%;
+	z-index:9;
+	cursor:pointer;
+}
+.nivo-prevNav {
+	left:0px;
+}
+.nivo-nextNav {
+	right:0px;
+}
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav {
+	text-align:center;
+	padding: 15px 0;
+}
+.nivo-controlNav a {
+	cursor:pointer;
+}
+.nivo-controlNav a.active {
+	font-weight:bold;
+}
+
+.slider-wrapper { 
+	width: 850px;
+	height: 316px; 
+	margin: 100px auto;
+}
+
+
+
+
+
+
+
